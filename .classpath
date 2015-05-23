@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/java"/>
+	<classpathentry kind="src" path="src/resources/jar"/>
+	<classpathentry kind="src" path="src/i18n"/>
+	<classpathentry kind="src" path="build/lib/dist"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="build/lib/ant-contrib.jar"/>
+	<classpathentry kind="lib" path="build/lib/ant-jive-edition.jar"/>
+	<classpathentry kind="lib" path="build/lib/ant-subdirtask.jar"/>
+	<classpathentry kind="lib" path="build/lib/ant.jar"/>
+	<classpathentry kind="lib" path="build/lib/cglib-nodep.jar"/>
+	<classpathentry kind="lib" path="build/lib/commons-el.jar"/>
+	<classpathentry kind="lib" path="build/lib/i4jruntime.jar"/>
+	<classpathentry kind="lib" path="build/lib/jasper-compiler.jar"/>
+	<classpathentry kind="lib" path="build/lib/jasper-runtime.jar"/>
+	<classpathentry kind="lib" path="build/lib/jaxb-api.jar"/>
+	<classpathentry kind="lib" path="build/lib/jmock-junit4.jar"/>
+	<classpathentry kind="lib" path="build/lib/jmock-legacy.jar"/>
+	<classpathentry kind="lib" path="build/lib/jmock.jar"/>
+	<classpathentry kind="lib" path="build/lib/junit.jar"/>
+	<classpathentry kind="lib" path="build/lib/objenesis.jar"/>
+	<classpathentry kind="lib" path="build/lib/pack200task.jar"/>
+	<classpathentry kind="lib" path="build/lib/qdox.jar"/>
+	<classpathentry kind="lib" path="build/lib/xmltask.jar"/>
+	<classpathentry kind="lib" path="build/lib/dist/activation.jar"/>
+	<classpathentry kind="lib" path="build/lib/dist/bcpg-jdk15on.jar"/>
+	<classpathentry kind="lib" path="build/lib/dist/bcpkix-jdk15on.jar"/>
+	<classpathentry kind="lib" path="build/lib/dist/bcprov-jdk15on.jar"/>
+	<classpathentry kind="lib" path="build/lib/dist/hsqldb.jar"/>
+	<classpathentry kind="lib" path="build/lib/dist/jdic.jar"/>
+	<classpathentry kind="lib" path="build/lib/dist/jtds.jar"/>
+	<classpathentry kind="lib" path="build/lib/dist/mail.jar"/>
+	<classpathentry kind="lib" path="build/lib/dist/mysql.jar"/>
+	<classpathentry kind="lib" path="build/lib/dist/postgres.jar"/>
+	<classpathentry kind="lib" path="build/lib/dist/servlet.jar" sourcepath="E:/WorkSpace/company/第一企信框架源码目录收集/servlet-api-2.5-sources.jar"/>
+	<classpathentry kind="lib" path="build/lib/dist/slf4j-log4j12.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/commons-codec.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/commons-httpclient.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/commons-lang.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/commons-logging.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/concurrentlinkedhashmap-lru-1.0_jdk5.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/dbutil.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/dom4j.jar" sourcepath="C:/Users/Administrator/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jaxen.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jdom.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jetty-continuation.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jetty-http.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jetty-io.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jetty-jmx.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jetty-security.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jetty-server.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jetty-servlet.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jetty-util.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jetty-webapp.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jetty-websocket.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jetty-xml.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jmdns.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jsp-api.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jstl.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jzlib.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/libidn.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/log4j.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/mina-core.jar" sourcepath="build/lib/src/mina-core-1.1.7-sources.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/mina-filter-compression.jar" sourcepath="build/lib/src/mina-filter-compression-1.1.7-sources.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/mina-filter-ssl.jar" sourcepath="build/lib/src/mina-filter-ssl-1.1.7-sources.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/mina-integration-jmx.jar" sourcepath="build/lib/src/mina-integration-jmx-1.1.7-sources.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/proxool.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/rome-fetcher.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/rome.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/shaj.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/sitemesh.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/slf4j-api.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/standard.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/stringprep.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/tinder.jar" sourcepath="build/lib/src/tinder-1.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/xpp3.jar"/>
+	<classpathentry kind="lib" path="build/lib/src/commons-lang-sources.jar"/>
+	<classpathentry kind="lib" path="build/lib/src/slf4j-api-1.5.8-sources.jar"/>
+	<classpathentry kind="lib" path="build/lib/src/slf4j-log4j12-1.5.8-sources.jar"/>
+	<classpathentry kind="lib" path="build/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="build/lib/json.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
