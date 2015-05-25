@@ -8,6 +8,7 @@ import java.util.Map;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 import org.jivesoftware.openfire.cluster.NodeID;
+import org.jivesoftware.openfire.component.InternalComponentManager;
 import org.jivesoftware.openfire.container.Module;
 import org.jivesoftware.openfire.container.PluginManager;
 import org.jivesoftware.util.Version;
