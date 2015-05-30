@@ -11,9 +11,11 @@ import org.jivesoftware.openfire.cluster.NodeID;
 import org.jivesoftware.openfire.component.InternalComponentManager;
 import org.jivesoftware.openfire.container.Module;
 import org.jivesoftware.openfire.container.PluginManager;
+import org.jivesoftware.openfire.session.RemoteSessionLocator;
 import org.jivesoftware.util.Version;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.xmpp.packet.JID;
 
 /**
  * The main XMPP server that will load, initialize and start all the server's
@@ -80,5 +82,27 @@ public class XMPPServer {
     
     private PluginManager pluginManager;
     private InternalComponentManager componentManager;
+    private RemoteSessionLocator remoteSessionLocator;
+    
+    /**
+     * True if in setup mode
+     */
+    private boolean setupMode = true;
+
+    private static final String STARTER_CLASSNAME =
+            "org.jivesoftware.openfire.starter.ServerStarter";
+    private static final String WRAPPER_CLASSNAME =
+            "org.tanukisoftware.wrapper.WrapperManager";
+    private boolean shuttingDown;
+    private XMPPServerInfoImpl xmppServerInfo;
+    
+	public static XMPPServer getInstance() {
+		return null;
+	}
+
+	public JID createJID(String username, Object object) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }
