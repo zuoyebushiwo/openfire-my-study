@@ -1,5 +1,6 @@
 package org.jivesoftware.openfire.spi;
 
+import org.jivesoftware.openfire.IQRouter;
 import org.jivesoftware.openfire.PacketRouter;
 import org.jivesoftware.openfire.container.BasicModule;
 import org.xmpp.packet.IQ;

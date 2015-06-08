@@ -1,5 +1,6 @@
 package org.jivesoftware.openfire.net;
 
+import org.jivesoftware.openfire.PacketRouter;
 import org.jivesoftware.openfire.session.LocalSession;
 import org.jivesoftware.openfire.session.Session;
 import org.slf4j.Logger;
