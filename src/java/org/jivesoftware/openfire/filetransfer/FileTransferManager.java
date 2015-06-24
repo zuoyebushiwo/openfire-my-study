@@ -21,6 +21,7 @@ package org.jivesoftware.openfire.filetransfer;
 
 import org.jivesoftware.openfire.auth.UnauthorizedException;
 import org.jivesoftware.openfire.container.Module;
+import org.jivesoftware.openfire.filetransfer.proxy.ProxyTransfer;
 
 /**
  * Manages all file transfer currently happening originating from and/or ending at users of the
